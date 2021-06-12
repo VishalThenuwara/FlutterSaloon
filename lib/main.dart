@@ -3,6 +3,7 @@ import 'package:authentification/SignUp.dart';
 import 'package:authentification/Start.dart';
 import 'package:flutter/material.dart';
 import 'HomePage.dart';
+import 'HomePage2.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: 
     
-      HomePage(),
+      HomePage2(),
+      //Start(),
 
       routes: <String,WidgetBuilder>{
 

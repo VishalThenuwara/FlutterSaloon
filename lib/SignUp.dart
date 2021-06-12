@@ -1,3 +1,4 @@
+import 'package:authentification/colorScheme.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -76,7 +77,7 @@ class _SignUpState extends State<SignUp> {
             Container(
               height: 400,
               child: Image(
-                image: AssetImage("images/login.jpg"),
+                image: AssetImage("images/welcome.jpg"),
                 fit: BoxFit.contain,
               ),
             ),
@@ -128,7 +129,7 @@ class _SignUpState extends State<SignUp> {
                               color: Colors.white,
                               fontSize: 20.0,
                               fontWeight: FontWeight.bold)),
-                      color: Colors.orange,
+                      color: getStartedColorEnd,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20.0),
                       ),
